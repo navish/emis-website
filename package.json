@@ -1,0 +1,26 @@
+{
+    "version": "1.0.0",
+    "name": "emis.io",
+    "description": "Project website for Emergency Management Information System (EMIS) ",
+    "keywords": [
+        "emis",
+        "codetanzania",
+        "emergency management"
+    ],
+    "homepage": "https://github.com/CodeTanzania/emis.io",
+    "license": "MIT",
+    "contributors": [
+        "Nancy Victor <navish45@gmail.com> (https://github.com/navish)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CodeTanzania/emis.git"
+    },
+    "bugs": {
+        "url": "https://github.com/CodeTanzania/emis/issues"
+    },
+    "main": "index.js",
+    "scripts": {},
+    "devDependencies": {},
+    "dependencies": {}
+}
