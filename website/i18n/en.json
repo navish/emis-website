@@ -5,13 +5,41 @@
     "previous": "Previous",
     "tagline": "Better and effective emergency management",
     "docs": {
+      "alerts": {
+        "title": "EMIS Alerts",
+        "sidebar_label": "Alerts"
+      },
+      "assessment": {
+        "title": "EMIS Assessment",
+        "sidebar_label": "Assessment"
+      },
+      "dashboards": {
+        "title": "EMIS Dashboards",
+        "sidebar_label": "Dashboards"
+      },
       "docs": {
         "title": "EMIS Documentation",
         "sidebar_label": "Documentation"
       },
-      "emis-doc": {
-        "title": "EMIS Document",
-        "sidebar_label": "EMIS Document"
+      "emergency-plans": {
+        "title": "EMIS Assessments",
+        "sidebar_label": "Emergency Plans"
+      },
+      "geographical-features": {
+        "title": "EMIS Geographical Features",
+        "sidebar_label": "Geographical Features"
+      },
+      "incidents": {
+        "title": "EMIS Incidents",
+        "sidebar_label": "Incidents"
+      },
+      "resources": {
+        "title": "EMIS Resources",
+        "sidebar_label": "Resources"
+      },
+      "stakeholders": {
+        "title": "EMIS Stakeholders",
+        "sidebar_label": "Stakeholders"
       }
     },
     "links": {
@@ -19,9 +47,8 @@
       "Blog": "Blog"
     },
     "categories": {
-      "Documentation": "Documentation",
-      "Blog Posts": "Blog Posts",
-      "Feature Release": "Feature Releases"
+      "EMIS Components": "EMIS Components",
+      "Documentation": "Documentation"
     }
   },
   "pages-strings": {

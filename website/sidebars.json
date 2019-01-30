@@ -1,5 +1,13 @@
 {
   "docs": {
+    "EMIS Components": [
+      "alerts",
+      "assessment",
+      "emergency-plans",
+      "geographical-features",
+      "incidents",
+      "stakeholders"
+    ],
     "Documentation": [
       "docs"
     ]

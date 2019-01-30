@@ -2,16 +2,19 @@
 .imageAlignSide .blockImage {
     max-width: 100px !important;
 }
-/* your custom css */
 
+
+/* your custom css */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 body,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont,
-    '.SFNSText-Regular', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Ubuntu' sans-serif;
+  /*font-family: 'San Francisco', -apple-system, BlinkMacSystemFont,
+    '.SFNSText-Regular', 'Helvetica Neue', Helvetica, sans-serif;*/
   font-size: 17px;
   font-weight: 400;
 }
@@ -19,8 +22,8 @@ h1 {
     font-size: 28px;
 }
 .fixedHeaderContainer header h2 {
-  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont,
-    '.SFNSText-Regular', 'Helvetica Neue', Helvetica, sans-serif;
+ /* font-family: 'San Francisco', -apple-system, BlinkMacSystemFont,
+    '.SFNSText-Regular', 'Helvetica Neue', Helvetica, sans-serif;*/
   font-size: 17px;
   font-weight: 400;
 }
@@ -109,7 +112,7 @@ h1 {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  padding: 50px 5px;
+  padding: 20px 5px;
 }
 
 .content.row {
@@ -184,7 +187,7 @@ nav.toc .toggleNav .navGroup.navGroupActive h3 {
 }
 
 .docsNavContainer {
-  margin-top: 65px;
+  margin-top: 0px;
 }
 
 a.learnmore {
@@ -321,7 +324,6 @@ footer iframe {
   nav.toc section .navGroups {
     padding: 50px 20px 60px;
   }
-
   .content.row {
     flex-direction: column;
   }
@@ -379,9 +381,15 @@ footer iframe {
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+  .toc section .navGroups {
+    display: block !important;
+}
 }
 
 @media only screen and (min-width: 1024px) {
+  /*.navigationSlider .slidingNav ul {
+    background: #8b9ba3;
+  }*/
 }
 
 @media only screen and (max-width: 1023px) {

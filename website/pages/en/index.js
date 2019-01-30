@@ -66,7 +66,7 @@ class HomeSplash extends React.Component {
 
             <div >
               <img
-                src={`${this.props.siteConfig.baseUrl}img/sign-in.jpg`}
+                src={`${this.props.siteConfig.baseUrl}img/landing.png`}
                 alt="EMIS Landing Page"
               />
             </div>
@@ -101,7 +101,7 @@ class Index extends React.Component {
       <Container background="dark">
         <div className="content">
           <h1 align="center">What is EMIS?</h1>
-          <p> EMIS is a collaboration platform that facilitate communication, planning and actions for disaster management. The focus being to help the community and responders be able to mitigate, prepare, improve response aid recovery on emergency / disaster incidents. It incorporates data that can be shared and analyzed in order generate insights for local authorities and communities to better manage disasters and increase resilience to disaster risk.</p>
+          <p> EMIS is a collaboration platform that facilitate communication, planning and actions for disaster management. The focus being to help the community and responders be able to mitigate, prepare, improve response and aid recovery on emergency / disaster incidents. It incorporates data that can be shared and analyzed in order to generate insights for local authorities and communities to better manage disasters and increase resilience to disaster risk.</p>
         </div>
       </Container>
     );
@@ -109,17 +109,19 @@ class Index extends React.Component {
     const EmisObjectives = () => (
       <Container>
         <div className="content">
-          <h1>Impact</h1>
-          <ul>
-            <li>Improve emergency response in urban areas</li>
-            <li>Improve emergency response in urban areas</li>
-          </ul>
+          <h1  align="center">Impact</h1>
+          <p>EMIS will support the Dar es Salaam city authorities and other stakeholders to effectively execute their responsibilities in disaster management by providing timely and reliable information essential for disaster actions. </p>
         </div>
       </Container>
     );
 
     const EmisComponents = () => (
       <Container>
+        <div>       
+          
+        <h1 align="center">EMIS COMPONENTS</h1>
+        </div>
+
         <div className="content row">
           <div className="col">
             <img
@@ -127,24 +129,22 @@ class Index extends React.Component {
             />
           </div>
           <div className="col">
-            <h4>EMIS COMPONENTS</h4>
             <h3>Emergency Plans</h3>
             <p>
               Provides a way to plan, store and disseminate emergency/disaster management plans with detailed activities and Standard Operating Procedures (SOPs) guiding what is to be performed by stakeholders in mitigation, preparedness, response and recovery phases disaster management.
             </p>
-            <a className="learnmore" href="/docs/plans.html">
+            <a className="learnmore" href="/docs/emergency-plans.html">
               Learn more
             </a>
           </div>
         </div>
         <div className="content row">
           <div className="col">
-            <h4>EMIS COMPONENTS</h4>
             <h3>Incident Management</h3>
             <p>
               Provides means to record and report the occurrence of a disaster incident and activating planned activities to respond and recover. It allows for storing of results of continuous assessments performed on affected areas, people and critical infrastructure.
             </p>
-            <a className="learnmore" href="/docs/incident.html">
+            <a className="learnmore" href="/docs/incidents.html">
               Learn more
             </a>
           </div>
@@ -161,7 +161,6 @@ class Index extends React.Component {
             />
           </div>
           <div className="col">
-            <h4>EMIS COMPONENTS</h4>
             <h3>Alerts</h3>
             <p>
               Includes an up to date database of ingested emergency / disaster alerts from multiple sources in near real time and disseminating them to disaster management stakeholders. It also provides a way to keep historical logs of the alerts and a means to perform targeted situational assessment survey per alert.
@@ -173,7 +172,6 @@ class Index extends React.Component {
         </div>
         <div className="content row">
           <div className="col">
-            <h4>EMIS COMPONENTS</h4>
             <h3>Assessment</h3>
             <p>
               Provides an integrated tools to assess the situation and the needs before, during or immediately after a disaster. It provides a way to determine what happened, where it happened, who was affected, what was the impact and what type of assistance is required for an immediate response for both affected population and infrastructures.
@@ -195,7 +193,6 @@ class Index extends React.Component {
             />
           </div>
           <div className="col">
-            <h4>EMIS COMPONENTS</h4>
             <h3>Stakeholders</h3>
             <p>
               Includes up to date database of all stakeholders responsible for emergency/disaster management within a specific region including responders, government institutions, disaster management committees, humanitarian organizations, non-governmental organizations (NGOs), civil societies, community disaster response teams and everyone involved in disaster management.
@@ -207,12 +204,11 @@ class Index extends React.Component {
         </div>
         <div className="content row">
           <div className="col">
-            <h4>EMIS COMPONENTS</h4>
             <h3>Geographical Features</h3>
             <p>
               Provides an up to date geographical database of all features of interest that can be used to study and control the expected and the actual extent of impact that may be caused in case of an emergency / disaster. It also assists in coordinating disaster management activities and tasks at source, prone and affected areas.
             </p>
-            <a className="learnmore" href="/docs/geo-features.html">
+            <a className="learnmore" href="/docs/geographical-features.html">
               Learn more
             </a>
           </div>
@@ -229,8 +225,8 @@ class Index extends React.Component {
     const HowItWorks = () => (
       <Container background="light" align="center">
         <div className="content">
-          <h1>How It Works?</h1>
-          <ul>
+          <h1  align="center">How It Works?</h1>
+         <ul>
             <li>Record an alert</li>
             <li>Activate mitigation and preparedness actions of the emergency plan.</li>
             <li>Collect feedback from community leaders.</li>
@@ -239,7 +235,7 @@ class Index extends React.Component {
             <li>Perform damage assessment.</li>
             <li>Activate recovery actions of emergency plan.</li>
             <li>Mark end of incident event.</li>
-          </ul>
+          </ul> 
         </div>
       </Container>
     );
