@@ -1,1 +1,15 @@
+# Logs
+logs
+*.log
+
+# Temporary files
+*.tmp
+
+#Runtime data
+*.pid
+
+# Dependency Directory
+node_modules
+
+# Other files
 references.txt
