@@ -109,16 +109,20 @@ class Index extends React.Component {
     const EmisObjectives = () => (
       <Container>
         <div className="content">
-          <h1  align="center">Impact</h1>
+          <h1  align="center">Objective</h1>
           <p>EMIS will support the Dar es Salaam city authorities and other stakeholders to effectively execute their responsibilities in disaster management by providing timely and reliable information essential for disaster actions. </p>
+          <p>EMIS will</p>
+          <ul>
+            <li>Strengthen the EOC operations.</li>
+            <li>Improve emergency response coordination.</li>
+          </ul>
         </div>
       </Container>
     );
 
     const EmisComponents = () => (
       <Container>
-        <div>       
-          
+        <div>         
         <h1 align="center">EMIS COMPONENTS</h1>
         </div>
 
@@ -226,16 +230,10 @@ class Index extends React.Component {
       <Container background="light" align="center">
         <div className="content">
           <h1  align="center">How It Works?</h1>
-         <ul>
-            <li>Record an alert</li>
-            <li>Activate mitigation and preparedness actions of the emergency plan.</li>
-            <li>Collect feedback from community leaders.</li>
-            <li>File a service request (create a ticket) and notify municipal (agency) for critical actions.</li>
-            <li>Activate response actions of emergency plan.</li>
-            <li>Perform damage assessment.</li>
-            <li>Activate recovery actions of emergency plan.</li>
-            <li>Mark end of incident event.</li>
-          </ul> 
+          <img
+              src="/img/how-it-works-1x.svg"
+            />
+ 
         </div>
       </Container>
     );
