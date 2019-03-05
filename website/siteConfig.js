@@ -21,8 +21,8 @@ const users = [
 const siteConfig = {
   title: 'EMIS Project', // Title for your website.
   tagline: 'Better and effective emergency management',
-  url: 'https://github.com/CodeTanzania/emis', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  url: 'https://navish.github.io', // Your website URL
+  baseUrl: '/website/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
