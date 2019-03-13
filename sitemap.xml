@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://navish.github.io/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://navish.github.io/en/index" /> </url>
+<url> <loc>https://navish.github.io/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://navish.github.io/en/users" /> </url>
+<url> <loc>https://navish.github.io/blog/2019/01/14/welcome-to-emis-blog</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://navish.github.io/docs/alerts</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://navish.github.io/docs/alerts" /> </url>
+<url> <loc>https://navish.github.io/docs/assessment</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://navish.github.io/docs/assessment" /> </url>
+<url> <loc>https://navish.github.io/docs/dashboards</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://navish.github.io/docs/dashboards" /> </url>
+<url> <loc>https://navish.github.io/docs/docs</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://navish.github.io/docs/docs" /> </url>
+<url> <loc>https://navish.github.io/docs/emergency-plans</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://navish.github.io/docs/emergency-plans" /> </url>
+<url> <loc>https://navish.github.io/docs/geographical-features</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://navish.github.io/docs/geographical-features" /> </url>
+<url> <loc>https://navish.github.io/docs/incidents</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://navish.github.io/docs/incidents" /> </url>
+<url> <loc>https://navish.github.io/docs/resources</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://navish.github.io/docs/resources" /> </url>
+<url> <loc>https://navish.github.io/docs/stakeholders</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://navish.github.io/docs/stakeholders" /> </url>
+</urlset>

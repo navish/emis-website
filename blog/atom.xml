@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://navish.github.io/blog</id>
+    <title>EMIS Project Blog</title>
+    <updated>2019-01-14T06:00:00Z</updated>
+    <generator>Feed for Node.js</generator>
+    <link rel="alternate" href="https://navish.github.io/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest EMIS Project news and events.</subtitle>
+    <logo>https://navish.github.io/img/logo-white.svg</logo>
+    <rights>Copyright © 2019 EMIS Project</rights>
+    <entry>
+        <title type="html"><![CDATA[Welcome to EMIS]]></title>
+        <id>https://navish.github.io/blog/2019/01/14/welcome-to-emis-blog.html</id>
+        <link href="https://navish.github.io/blog/2019/01/14/welcome-to-emis-blog.html">
+        </link>
+        <updated>2019-01-14T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>We are glad you made it here.</p>
+<p>EMIS is a project run by a team of people from various backgrounds, all brought together by the sole purpose to improve the livelihoods of people liveing in areas that have a higher risk of being hit by disasters that disrupt their day to day activities.</p>
+]]></summary>
+        <author>
+            <name>Nancy Victor</name>
+        </author>
+    </entry>
+</feed>
