@@ -109,7 +109,7 @@ class Index extends React.Component {
     const EmisObjectives = () => (
       <Container>
         <div className="content">
-          <h1  align="center">Objective</h1>
+          <h1 align="center">Objective</h1>
           <p>EMIS will support the Dar es Salaam city authorities and other stakeholders to effectively execute their responsibilities in disaster management by providing timely and reliable information essential for disaster actions. </p>
           <p>EMIS will</p>
           <ul>
@@ -122,14 +122,14 @@ class Index extends React.Component {
 
     const EmisComponents = () => (
       <Container>
-        <div>         
-        <h1 align="center">EMIS COMPONENTS</h1>
+        <div>
+          <h1 align="center">EMIS COMPONENTS</h1>
         </div>
 
         <div className="content row">
           <div className="col">
             <img
-              src="/img/plan.svg"
+              src="img/plan.svg"
             />
           </div>
           <div className="col">
@@ -137,7 +137,7 @@ class Index extends React.Component {
             <p>
               Provides a way to plan, store and disseminate emergency/disaster management plans with detailed activities and Standard Operating Procedures (SOPs) guiding what is to be performed by stakeholders in mitigation, preparedness, response and recovery phases disaster management.
             </p>
-            <a className="learnmore" href="/docs/emergency-plans.html">
+            <a className="learnmore" href="docs/emergency-plans.html">
               Learn more
             </a>
           </div>
@@ -148,20 +148,20 @@ class Index extends React.Component {
             <p>
               Provides means to record and report the occurrence of a disaster incident and activating planned activities to respond and recover. It allows for storing of results of continuous assessments performed on affected areas, people and critical infrastructure.
             </p>
-            <a className="learnmore" href="/docs/incidents.html">
+            <a className="learnmore" href="docs/incidents.html">
               Learn more
             </a>
           </div>
           <div className="col center">
             <img
-              src="/img/incident.svg"
+              src="img/incident.svg"
             />
           </div>
         </div>
         <div className="content row">
           <div className="col">
             <img
-              src="/img/alert.svg"
+              src="img/alert.svg"
             />
           </div>
           <div className="col">
@@ -169,7 +169,7 @@ class Index extends React.Component {
             <p>
               Includes an up to date database of ingested emergency / disaster alerts from multiple sources in near real time and disseminating them to disaster management stakeholders. It also provides a way to keep historical logs of the alerts and a means to perform targeted situational assessment survey per alert.
             </p>
-            <a className="learnmore" href="/docs/alerts.html">
+            <a className="learnmore" href="docs/alerts.html">
               Learn more
             </a>
           </div>
@@ -180,20 +180,20 @@ class Index extends React.Component {
             <p>
               Provides an integrated tools to assess the situation and the needs before, during or immediately after a disaster. It provides a way to determine what happened, where it happened, who was affected, what was the impact and what type of assistance is required for an immediate response for both affected population and infrastructures.
             </p>
-            <a className="learnmore" href="/docs/assessment.html">
+            <a className="learnmore" href="docs/assessment.html">
               Learn more
             </a>
           </div>
           <div className="col center">
             <img
-              src="/img/assessment.svg"
+              src="img/assessment.svg"
             />
           </div>
         </div>
         <div className="content row">
           <div className="col">
             <img
-              src="/img/stakeholders.svg"
+              src="img/stakeholders.svg"
             />
           </div>
           <div className="col">
@@ -201,7 +201,7 @@ class Index extends React.Component {
             <p>
               Includes up to date database of all stakeholders responsible for emergency/disaster management within a specific region including responders, government institutions, disaster management committees, humanitarian organizations, non-governmental organizations (NGOs), civil societies, community disaster response teams and everyone involved in disaster management.
             </p>
-            <a className="learnmore" href="/docs/stakeholders.html">
+            <a className="learnmore" href="docs/stakeholders.html">
               Learn more
             </a>
           </div>
@@ -212,13 +212,13 @@ class Index extends React.Component {
             <p>
               Provides an up to date geographical database of all features of interest that can be used to study and control the expected and the actual extent of impact that may be caused in case of an emergency / disaster. It also assists in coordinating disaster management activities and tasks at source, prone and affected areas.
             </p>
-            <a className="learnmore" href="/docs/geographical-features.html">
+            <a className="learnmore" href="docs/geographical-features.html">
               Learn more
             </a>
           </div>
           <div className="col center">
             <img
-              src="/img/geo-feature.svg"
+              src="img/geo-feature.svg"
             />
           </div>
         </div>
@@ -229,11 +229,11 @@ class Index extends React.Component {
     const HowItWorks = () => (
       <Container background="light" align="center">
         <div className="content">
-          <h1  align="center">How It Works?</h1>
+          <h1 align="center">How It Works?</h1>
           <img
-              src="/img/how-it-works-1x.svg"
-            />
- 
+            src="img/how-it-works-1x.svg"
+          />
+
         </div>
       </Container>
     );
