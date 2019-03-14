@@ -21,15 +21,15 @@ const users = [
 const siteConfig = {
   title: 'EMIS Project', // Title for your website.
   tagline: 'Better and effective emergency management',
-  url: 'https://github.com/CodeTanzania/emis', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  url: 'https://navish.github.io', // Your website URL
+  baseUrl: '/emis-website/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'emis',
-  organizationName: 'EMIS',
+  projectName: 'emis-website',
+  organizationName: 'navish',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
