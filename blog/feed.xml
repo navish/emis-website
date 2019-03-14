@@ -2,21 +2,21 @@
 <rss version="2.0">
     <channel>
         <title>EMIS Project Blog</title>
-        <link>https://navish.github.io/blog</link>
+        <link>https://navish.github.io/emis-website/blog</link>
         <description>The best place to stay up-to-date with the latest EMIS Project news and events.</description>
         <lastBuildDate>Mon, 14 Jan 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
             <title>EMIS Project Blog</title>
-            <url>https://navish.github.io/img/logo-white.svg</url>
-            <link>https://navish.github.io/blog</link>
+            <url>https://navish.github.io/emis-website/img/logo-white.svg</url>
+            <link>https://navish.github.io/emis-website/blog</link>
         </image>
         <copyright>Copyright © 2019 EMIS Project</copyright>
         <item>
             <title><![CDATA[Welcome to EMIS]]></title>
-            <link>https://navish.github.io/blog/2019/01/14/welcome-to-emis-blog.html</link>
-            <guid>https://navish.github.io/blog/2019/01/14/welcome-to-emis-blog.html</guid>
+            <link>https://navish.github.io/emis-website/blog/2019/01/14/welcome-to-emis-blog.html</link>
+            <guid>https://navish.github.io/emis-website/blog/2019/01/14/welcome-to-emis-blog.html</guid>
             <pubDate>Mon, 14 Jan 2019 06:00:00 GMT</pubDate>
             <description><![CDATA[<p>We are glad you made it here.</p>
 <p>EMIS is a project run by a team of people from various backgrounds, all brought together by the sole purpose to improve the livelihoods of people liveing in areas that have a higher risk of being hit by disasters that disrupt their day to day activities.</p>
