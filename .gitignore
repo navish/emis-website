@@ -13,3 +13,7 @@ node_modules
 
 # Other files
 references.txt
+
+# Other directories
+website/build
+
